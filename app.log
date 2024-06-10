@@ -1,0 +1,35 @@
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 417-306-502
+INFO:werkzeug:127.0.0.1 - - [09/Jun/2024 21:20:49] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jun/2024 21:20:50] "GET /static/dashboard_stylesheet.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jun/2024 21:20:50] "GET /static/dashboard-script.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jun/2024 21:20:50] "GET /api/low_stock_levels HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jun/2024 21:20:50] "GET /api/orders_over_time HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jun/2024 21:20:50] "GET /api/most_popular_products HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jun/2024 21:20:50] "GET /api/revenue_generation HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jun/2024 21:20:50] "GET /api/product_category_popularity HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jun/2024 21:20:50] "GET /api/payment_method_popularity HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): archive-api.open-meteo.com:443
+INFO:werkzeug:127.0.0.1 - - [09/Jun/2024 21:20:50] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+ERROR:root:Error in /api/temperature_over_time: HTTPSConnectionPool(host='archive-api.open-meteo.com', port=443): Max retries exceeded with url: /v1/archive?latitude=50.6053&longitude=-3.5952&start_date=2023-05-01&end_date=2023-08-31&daily=temperature_2m_max&timezone=GMT (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)')))
+INFO:werkzeug:127.0.0.1 - - [09/Jun/2024 21:20:50] "[35m[1mGET /api/temperature_over_time HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2024 08:34:38] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2024 08:34:38] "[36mGET /static/dashboard_stylesheet.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2024 08:34:38] "[36mGET /static/dashboard-script.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2024 08:34:38] "GET /api/low_stock_levels HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2024 08:34:38] "GET /api/orders_over_time HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2024 08:34:38] "GET /api/product_category_popularity HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2024 08:34:38] "GET /api/payment_method_popularity HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2024 08:34:38] "GET /api/revenue_generation HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): archive-api.open-meteo.com:443
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2024 08:34:38] "GET /api/most_popular_products HTTP/1.1" 200 -
+ERROR:root:Error in /api/temperature_over_time: HTTPSConnectionPool(host='archive-api.open-meteo.com', port=443): Max retries exceeded with url: /v1/archive?latitude=50.6053&longitude=-3.5952&start_date=2023-05-01&end_date=2023-08-31&daily=temperature_2m_max&timezone=GMT (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)')))
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2024 08:34:39] "[35m[1mGET /api/temperature_over_time HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\1890ju\\Downloads\\DT402-flask-main\\DT402-flask-main\\Dashboard WebApp\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 417-306-502
